@@ -1,7 +1,5 @@
 #include <iostream>
 
-
-
 using namespace std;
 
 //Prototype
@@ -49,8 +47,8 @@ using namespace std;
         cout << "Masukan Nama Mahasiswa : "; cin>>siswa;
         cout << "Masukan Nilai IP       : "; cin>>ip;
       }
-
-          //Proses Validasi dan Tampil
+    
+    //Proses Validasi dan Tampil
       void PTampilValid() {
         cout<<"Nama   : " << siswa << endl;
         cout<<"IP     : " << ip << endl;
